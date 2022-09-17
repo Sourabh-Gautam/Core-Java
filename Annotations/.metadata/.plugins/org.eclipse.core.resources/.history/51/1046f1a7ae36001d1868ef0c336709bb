@@ -1,0 +1,11 @@
+package custom.type.markerannotation;
+
+public class Bike {
+	public void start() {
+		System.out.println("Bike started");
+	}
+	
+	public void stop() {
+		System.out.println("Bike started");
+	}
+}

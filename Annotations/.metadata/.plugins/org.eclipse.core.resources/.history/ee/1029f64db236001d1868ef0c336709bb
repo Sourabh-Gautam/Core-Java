@@ -1,0 +1,6 @@
+package com.exercise1;
+
+public class Person {
+	String name;
+	String email;
+}	

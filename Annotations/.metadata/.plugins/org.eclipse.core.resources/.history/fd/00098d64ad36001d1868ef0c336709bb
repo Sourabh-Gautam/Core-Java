@@ -1,0 +1,8 @@
+package custom.type.markerannotation;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface RunImmediately {
+	
+}
+
