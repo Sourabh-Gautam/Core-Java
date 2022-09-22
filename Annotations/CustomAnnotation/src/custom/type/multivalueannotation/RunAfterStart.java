@@ -8,6 +8,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RunAfterStart {
-	int times();
+	int times() default 1;
+	int[] speed();
 }
-

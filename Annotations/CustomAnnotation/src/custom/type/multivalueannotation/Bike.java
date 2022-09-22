@@ -6,13 +6,13 @@ public class Bike {
 		System.out.println("Bike started");
 	}
 	
-	@RunAfterStart(times=3)
-	public void accelerate() {
-		System.out.println("Bike accelerated");
+	@RunAfterStart( times=3, speed= {20, 40, 60})
+	public void accelerate(int speed) {
+		System.out.println("Bike accelerated - Current speed is "+speed);
 	}
 	
 	public void stop() {
-		System.out.println("Bike started");
+		System.out.println("Bike stopped");
 	}
 	
 }

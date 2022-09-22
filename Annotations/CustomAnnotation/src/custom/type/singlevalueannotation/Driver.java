@@ -9,10 +9,8 @@ public class Driver {
 		for (Method method : methods) {
 			if (method.isAnnotationPresent(RunAfterStart.class)) {
 				RunAfterStart ri = method.getAnnotation(RunAfterStart.class);
-				int[] speed = ri.speed();
 				for (int i = 0; i < ri.times(); i++) {
 					method.invoke(bike);
-					System.out.println("Current speed : "+speed[i]);
 				}
 			}
 		}
