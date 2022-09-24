@@ -10,4 +10,11 @@
     <fullyQualifiedTypeName name="com.exercise1.Capitalize"/>
     <fullyQualifiedTypeName name="custom.type.singlevalueannotation.RunAfterStart"/>
     <fullyQualifiedTypeName name="custom.type.markerannotation.RunImmediately"/>
+    <fullyQualifiedTypeName name="com.markerinterface.GoToSchool"/>
+    <fullyQualifiedTypeName name="com.markerinterface.GoToTuition"/>
+    <fullyQualifiedTypeName name="com.markerinterface.PlayCricket"/>
+    <fullyQualifiedTypeName name="com.markerinterface.GoToMorningWalk"/>
+    <fullyQualifiedTypeName name="com.markerinterface.SelfStudy"/>
+    <fullyQualifiedTypeName name="com.markerinterface.MandatoryRoutine"/>
+    <fullyQualifiedTypeName name="com.markerinterface.TakeMedicine"/>
 </qualifiedTypeNameHistroy>
